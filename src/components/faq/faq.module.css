@@ -1,0 +1,30 @@
+
+.faqsec{
+    padding: 60px 0px;
+}
+.faqtext{
+    max-width: 955px;
+    margin: auto;
+text-align: center;
+}
+.faqtext h1{
+    font-family: calluna,serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #081b33;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+.faqtext p{
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    color: #081b33;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.4em;
+}
+.app{
+    color: #E54A35;
+}
+
+
+

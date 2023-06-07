@@ -1,0 +1,48 @@
+
+
+.btn2{
+    color: #081B33 !important;
+    border:3px solid #081B33 ;
+    font-size: 1vw;
+    font-weight: 600 !important;
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    padding: 0px 38px;
+    width: 100%;
+    max-width: 288px;
+    display: flex;    
+    align-items: center;
+}
+.wintext{
+    max-width: 604px;
+margin: auto;
+}
+.btn2 h3{
+    margin-left: 10px;
+}
+.wintext h1{
+    font-size: 2.5vw;
+    font-family: calluna,serif;
+font-weight: 600;
+font-style: normal;
+color: #081b33;
+}
+.wintext h2{
+    font-size: 1.5vw;
+    color: #E54A35 !important;
+    font-family: calluna,serif;
+font-weight: 600;
+font-style: normal;    
+}
+.wintext p{
+    color: #081b33;
+    line-height: 1.4em;   
+    font-size: 19px; 
+}
+.wewinsec{
+    padding: 50px 0px;
+}
+.winimg{
+    max-width: 539px;
+margin: auto;
+}
