@@ -2,14 +2,14 @@
 
 .btn2{
     color: #081B33 !important;
-    border:3px solid #081B33 ;
-    font-size: 1vw;
+    border:1px solid #081B33 ;
+    
     font-weight: 600 !important;
     background-color: #FFFFFF;
     margin-top: 35px;
-    padding: 0px 38px;
-    width: 100%;
-    max-width: 288px;
+    padding: 0px 30px;
+    height: 55px;
+    max-width: 230px;
     display: flex;    
     align-items: center;
 }
@@ -21,14 +21,14 @@ margin: auto;
     margin-left: 10px;
 }
 .wintext h1{
-    font-size: 2.5vw;
+    font-size: 37px;
     font-family: calluna,serif;
 font-weight: 600;
 font-style: normal;
 color: #081b33;
 }
 .wintext h2{
-    font-size: 1.5vw;
+    font-size: 25px;
     color: #E54A35 !important;
     font-family: calluna,serif;
 font-weight: 600;
@@ -46,3 +46,24 @@ font-style: normal;
     max-width: 539px;
 margin: auto;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .wintext h1{
+        font-size: 30px;
+    }
+    .wintext h2{
+        font-size: 20px;
+    }
+    .winimg{
+        margin-top: 40px;
+    }
+  }
+  
+
+
+
+
+

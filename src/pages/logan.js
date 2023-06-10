@@ -1,19 +1,13 @@
-import Local from '@/components/local/Local'
 import React from 'react'
 import Head from 'next/head'
-import LawyerAre from '@/components/lawyerAre/LawyerAre'
-import Representative from '@/components/representative/Representative'
+import Logan from '@/components/logan/Logan'
+import Services from '@/components/serv/Services'
 import Divider from '@/components/divider/Divider'
-import FAQ from '@/components/faq/FAQ'
-import Resources from '@/components/resources/Resources'
-import Brands from '@/components/brands/Brands'
+import LoganInfo from '@/components/loganInfo/LoganInfo'
 
 
 
-
-
-
-const local = () => {
+const logan = () => {
   return (
     <>
     <Head>
@@ -27,17 +21,14 @@ const local = () => {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </Head>
     
-    <Local/>
-    <LawyerAre/>
-    <Representative/>
+    <Logan/>
+    <Services/>
     <Divider/>
-    <FAQ/>
-    <Resources/>
-    <Divider/>
-    <Brands/>
+    <LoganInfo/>
+    
     
     </>
   )
 }
 
-export default local
+export default logan

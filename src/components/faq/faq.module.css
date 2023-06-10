@@ -26,5 +26,10 @@ text-align: center;
     color: #E54A35;
 }
 
-
+@media (max-width: 768px) {
+   .faqtext h1{
+    font-size: 20px;
+   }
+  }
+  
 

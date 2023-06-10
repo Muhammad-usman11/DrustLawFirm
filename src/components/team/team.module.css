@@ -1,0 +1,76 @@
+
+.teamsec{
+    padding: 50px 0px;
+}
+.teamimg{
+    max-width: 500px;
+    margin: auto;
+}
+.teamtext{
+    margin-top: 50px;
+}
+.teamtext h1{
+    font-size: 35px;
+    margin-bottom: -5px;
+    text-align: center;
+    font-family: calluna,serif;
+font-weight: 600;
+font-style: normal;
+color: #081b33;
+}
+.teamtext h2{
+    padding-bottom: 10px;
+    line-height: 1em;
+    text-align: center;
+    font-family: calluna,serif;
+    font-weight: 700;
+font-style: italic;
+font-size: 25px;
+color: #E54A35 !important;
+}
+.teamtext p{
+    color: #081b33;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.4em;
+    font-size: 21px;
+    max-width: 677px;
+}
+.btnbox{
+    display: flex;
+    align-items: center;
+    
+    border: 1px solid #081B33;
+    margin-top: 15px;
+font-weight: 600 !important;
+background-color: #081B33;
+padding: 0px 25px;
+height: 45px;
+}
+.btnbox p{
+    color: #FFFFFF !important;
+    font-size: 18px;
+}
+.btnbox i{
+margin-left: 10PX;
+color: #FFFFFF !important;
+font-size: 14px;
+
+}
+.btnparent{
+    display: flex;
+justify-content: center;
+}
+.team2box{
+    margin-top: 90px;
+}
+
+
+@media (max-width: 768px) {
+   .team2box{
+    margin-top: 35px;
+   }
+   .teambox{
+    margin-top: 30px;
+   }
+}
+  

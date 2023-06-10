@@ -32,7 +32,12 @@
     margin-top: 40px;
 }
 
-
+@media (max-width: 768px) {
+   .lawyersec h1{
+    font-size: 23px;
+   }
+  }
+  
 
 
 

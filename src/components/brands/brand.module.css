@@ -34,7 +34,18 @@
 
 
 
-
+@media (max-width: 768px) {
+   .img2{
+    margin-left: 0px;
+   }
+   .img4{
+    margin-left: 20px;
+   }
+   .img6{
+    margin-left: 0px;
+   }
+  }
+  
 
 
 

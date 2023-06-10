@@ -34,4 +34,23 @@
 .clientrepresent{
     margin-top: 70px;
 }
+
+
+
+@media (max-width: 768px) {
+    .line{
+        max-width: 120px;
+        margin-top: 0px;
+    }
+    .clientrepresent ul li{
+        font-size: 15px;
+    }
+    .clientrepresent{
+        margin-top: 17px;
+    }
+}
+  
+
+
+
   

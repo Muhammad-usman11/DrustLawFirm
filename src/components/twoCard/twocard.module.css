@@ -9,6 +9,7 @@
     font-family: calluna,serif;
     color: #081b33;
     line-height: 1em;
+    font-size: 35px;
 }
 .card1 p{
     padding-bottom: 1em;
@@ -31,7 +32,7 @@
 border-width: 0px !important;
 padding: 1px 20px;
 border-radius: 0px;
-font-size: 1.2vw;
+
 font-weight: 600 !important;
 background-color: #081B33;
 max-width: 225px;
@@ -43,7 +44,7 @@ max-width: 225px;
 border-width: 0px !important;
 padding: 1px 20px;
 border-radius: 0px;
-font-size: 1.2vw;
+
 font-weight: 600 !important;
 background-color: #081B33;
 margin-top: 20px;
@@ -70,4 +71,24 @@ margin-left: -60px;
 
 }
 
-
+@media (max-width: 768px) {
+    .card1 h1{
+        font-size: 27px;
+    }
+    .card2{
+        margin-left: 0px;
+    }
+    .card1 h2{
+        font-size: 16px;
+    }
+    .card1 p{
+        font-size: 16px;
+    }
+    .twobtns{
+        top: 0px;
+    }
+    .btn2{
+        max-width: 145px;
+    }
+  }
+  

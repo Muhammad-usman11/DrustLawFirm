@@ -1,0 +1,91 @@
+.btnbox {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #081b33;
+  margin-top: 15px;
+  font-weight: 600 !important;
+  background-color: #081b33;
+  width: 228px;
+  height: 55px;
+  padding: 0px 45px;
+}
+.btnbox p {
+  color: #ffffff !important;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.btnbox i {
+  color: #ffffff !important;
+  font-size: 16px;
+}
+.alexsec {
+  padding: 50px 0px;
+}
+.alexbox h2 {
+  line-height: 1em;
+
+  font-family: calluna, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  color: #e54a35 !important;
+}
+.alexbox h1 {
+  font-size: 45px;
+  margin-bottom: -5px;
+
+  font-family: calluna, serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #081b33;
+}
+.btnparent {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.alexp {
+  color: #081b33;
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+  line-height: 1.4em;
+  font-size: 21px;
+  margin-top: 25px;
+  max-width: 840px;
+}
+.aleximg {
+  max-width: 600px;
+  margin: auto;
+}
+.aleximgparent {
+  position: relative;
+}
+.aleximg2 {
+  position: absolute;
+  width: 100%;
+  max-width: 70px;
+  top: -30px;
+  left: -25px;
+}
+.esq {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .alexbox h1 {
+    font-size: 35px;
+  }
+  .btnbox {
+    padding: 0px 18px;
+  }
+  .aleximg {
+    max-width: 310px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .aleximg2 {
+    top: -20px;
+    left: 0px;
+  }
+}

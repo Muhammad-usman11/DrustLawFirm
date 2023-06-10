@@ -80,3 +80,18 @@ margin-top: 70px;
 .app{
     color: #E54A35;
 }
+
+@media (max-width: 768px) {
+    .retext{
+        font-size: 32px;
+    }
+    .court h1{
+        font-size: 24px;
+    }
+    .courtlist{
+        margin-top: 0px;
+    }
+  }
+  
+
+

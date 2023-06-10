@@ -20,25 +20,25 @@
   }
   .btn1{
     color: #E54A35 !important;
-    border:3px solid #E54A35 ;
-    font-size: 1.2vw;
+    border:1px solid #E54A35 ;
+    
     font-weight: 600 !important;
     background-color: #FFFFFF;
-    height: 60px;
-  width: 10vw;
+    height: 50px;
+    font-size: 15px;
   padding: 0px 26px;
   display: flex;
     align-items: center;
   }
   .btn2{
     color: #081B33 !important;
-  border:3px solid #081B33 ;
-  font-size: 1vw;
+  border:1px solid #081B33 ;
+  font-size: 15px;
   font-weight: 600 !important;
   background-color: #FFFFFF;
   margin-left: 25px;
-  height: 60px;
-  width: 15vw;
+  height: 50px;
+  
   padding: 0px 26px;
   display: flex;
     align-items: center;
@@ -56,7 +56,7 @@
     font-family: calluna,serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.5vw;  
+    font-size: 25px;
   }
   .areabox{
     padding-top: 5%;
@@ -93,3 +93,31 @@
 .btn2 h3{
     margin-left: 10px;
 }
+
+
+@media (max-width: 768px) {
+ .litigation h4{
+  font-size: 15px;
+ }
+ .litigation h1{
+  font-size: 35px;
+ }
+ .commercialbtns{
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .btn2{
+  margin-top: 10px;
+  
+ }
+ .additional h2{
+  font-size: 20px;
+ }
+ .areaboxtext ul li{
+  font-size: 16px;
+ }
+ .additional h2{
+  margin-top: 30px;
+ }
+}
+
