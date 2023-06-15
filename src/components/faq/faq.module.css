@@ -28,7 +28,11 @@ text-align: center;
 
 @media (max-width: 768px) {
    .faqtext h1{
-    font-size: 20px;
+    font-size: 35px;
+   }
+   .faqtext p{
+    padding: 0px 20px;
+    font-size: 17px;
    }
   }
   

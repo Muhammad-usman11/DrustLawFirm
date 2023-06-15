@@ -1,6 +1,16 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+p{
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4{
+  font-family: var(--calluna);
+}
+ul li{
+  font-family: 'Lato', sans-serif;
+}
 
 *{
   box-sizing: border-box;

@@ -91,10 +91,21 @@ text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
     .bloghead h1{
-        font-size: 20px;
+        font-size: 40px;
     }
     .bloghead h2{
-        font-size: 22px;
+        font-size: 28px;
+    }
+    .blogbody h4{
+        font-size: 15px;
+        font-weight: 400 !important;
+        font-style: normal !important;
+    }
+    .blogbody p{
+        font-size: 15px;
+    }
+    .blogbody h1{
+        font-size: 20px;
     }
     .version{
         font-size: 8px;

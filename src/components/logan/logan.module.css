@@ -1,14 +1,15 @@
 .btnbox {
   display: flex;
   align-items: center;
-
+justify-content: center;
+border-radius: 6px;
   border: 1px solid #081b33;
   margin-top: 15px;
   font-weight: 600 !important;
   background-color: #081b33;
-  width: 228px;
-  height: 55px;
-  padding: 0px 45px;
+ 
+  height: 50px;
+  padding: 0px 35px;
 }
 .btnbox p {
   color: #ffffff !important;
@@ -34,7 +35,7 @@
 .alexbox h1 {
   font-size: 45px;
   margin-bottom: -5px;
-
+  margin-top: -15px;
   font-family: calluna, serif;
   font-weight: 600;
   font-style: normal;
@@ -74,18 +75,33 @@
 
 @media (max-width: 768px) {
   .alexbox h1 {
-    font-size: 35px;
+    font-size: 36px;
+  }
+  .alexbox h2{
+      font-size: 20px;
+  }
+  .btnparent{
+      flex-wrap: wrap;
+      justify-content: center;
   }
   .btnbox {
-    padding: 0px 18px;
+   
+    margin-top: 0px;
+    
+  }
+  .alexp{
+      font-size: 16px;
+      text-align: left;
+  }
+  .alexbox{
+      text-align: center;
   }
   .aleximg {
     max-width: 310px;
-    margin-left: 30px;
+    
     margin-top: 20px;
   }
   .aleximg2 {
-    top: -20px;
-    left: 0px;
+      display: none;
   }
 }

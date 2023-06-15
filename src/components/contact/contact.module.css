@@ -140,14 +140,25 @@ margin-top: 60px;
         gap: 0px;
     }
     .contacttext h2{
-        font-size: 30px;
+        font-size: 35px;
+        margin-top: 0px;
     }
     .contacttext h1{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .info h4{
+        font-size: 18px;
+        text-align: left;
+    }
+    .info{
+        justify-content: center;
+        margin-top: -15px;
     }
     .contacttext{
-        max-width: 277px;
-margin: auto;
+        text-align: center;
+    }
+    .vine{
+        font-weight: 500;
     }
 }
   

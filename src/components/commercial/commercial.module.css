@@ -1,5 +1,6 @@
 /* Commercial sec */
 
+
 .litigation h4{
     font-weight: 700;
     font-style: italic;
@@ -8,7 +9,7 @@
     margin-bottom: -11px;
   }
   .litigation h1{
-    font-family: calluna,serif;
+   
     font-weight: 600;
     font-style: normal;
     color: #081b33;
@@ -17,6 +18,7 @@
   .litigation p{
     color: #081b33;
     font-size: 20px;
+    
   }
   .btn1{
     color: #E54A35 !important;
@@ -42,6 +44,15 @@
   padding: 0px 26px;
   display: flex;
     align-items: center;
+  }
+  .btn1:hover{
+    background-color: #000000;
+    border: none;
+  }
+  .btn2:hover{
+    background-color:#081B33 ;
+    color: white !important;
+    border: none;
   }
   .commercialbtns{
     display: flex;
@@ -95,22 +106,38 @@
 }
 
 
+
+
 @media (max-width: 768px) {
  .litigation h4{
-  font-size: 15px;
+  font-size: 18px;
  }
  .litigation h1{
-  font-size: 35px;
+  font-size: 37px;
  }
  .commercialbtns{
   flex-wrap: wrap;
   justify-content: center;
  }
+ .litigation{
+  text-align: center;
+ }
+ .litigation p{
+  font-size: 17px;
+  text-align: left;
+ }
  .btn2{
   margin-top: 10px;
-  
+  border: 2px solid #081B33;
+ }
+ .btn1{
+  border: 2px solid #E54A35;
  }
  .additional h2{
+  font-size: 22px;
+  text-align: center;
+ }
+ .areaboxtext ul li::before{
   font-size: 20px;
  }
  .areaboxtext ul li{

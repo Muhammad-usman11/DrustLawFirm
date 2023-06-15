@@ -43,7 +43,21 @@ text-decoration: underline;
 
 
 
+@media (max-width: 768px) {
+    .lawyersec h1{
+        font-size: 25px;
+       }
+       .lawyerlist ul li::before{
+        font-size: 20px;
+       }
+       .lawyerlist ul li{
+        font-size: 16px;
+       }
+       .lawyerlist{
+        margin-top: 0px;
+       }
 
+}
 
 
 

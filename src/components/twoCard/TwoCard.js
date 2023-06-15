@@ -29,7 +29,7 @@ const TwoCard = () => {
                   outstanding advisors.
                 </p>
                 <h2>- Ben W.</h2>
-                <p>CEO, WHAM Properties</p>
+                <p className={style.no}>CEO, WHAM Properties</p>
               </div>
             </div>
             <div className="pure-u-1 pure-u-md-6-24  ">
@@ -46,8 +46,8 @@ const TwoCard = () => {
                     complete dismissal of all claims adverse company officer.
                   </p>
 
-                  <h2>Elec. Merch. Sys. LLC v. Gaal, et al.</h2>
-                  <p>
+                  <h2 className={style.elec} >Elec. Merch. Sys. LLC v. Gaal, et al.</h2>
+                  <p className={style.no} >
                     No. 20-CV-1898, 2022 WL 2176537 (N.D. Ohio June 16, 2022).
                   </p>
                 </div>

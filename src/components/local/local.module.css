@@ -102,24 +102,35 @@ background-image: linear-gradient(64deg,#ffffff 46%,rgba(255,255,255,0.55) 72%),
 
 @media (max-width: 768px) {
   .litigation h4{
-    font-size: 15px;
+    font-size: 18px;
   }
   .litigation h1{
-    font-size: 27px;
+    font-size: 35px;
   }
   .commercialbtns{
     flex-wrap: wrap;
     justify-content: center;
   }
   .btn2{
-    margin-top: 10px;
+    margin-top: 20px;
+    border-width: 2px;
     font-size: 13px;
     margin-left: 0px;
+    width: 100%;
+max-width: 210px;
+justify-content: center;
   }
   .btn1{
+    border-width: 2px;
     font-size: 13px;
     width: 100%;
-max-width: 194px;
+max-width: 175px;
+  }
+  .litigation{
+    text-align: center;
+  }
+  .litigation p{
+    font-size: 17px;
   }
 }
 

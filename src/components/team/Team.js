@@ -27,7 +27,7 @@ const Team = () => {
     <div class="pure-u-1 pure-u-md-12-24">
     <div className="teambox">
             <div className={style.teamimg}>
-                <img src="/images/team2.jpg" alt="" />
+                <img className={style.loimg} src="/images/team2.jpg" alt="" />
             </div>
             <div className={style.teamtext}>
                 <h1>Logan F. Kline</h1>
