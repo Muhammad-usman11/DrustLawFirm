@@ -33,6 +33,7 @@ margin-bottom: 10px;
 .info{
 display: flex;
 align-items: center;
+margin-top: -15px;
 }
 .info i{
 color: #E54A35;
@@ -52,11 +53,13 @@ font-size: 25px;
 .vine{
     max-width: 250px;
     font-size: 16px;
-    margin-top: -15px;
+    margin-top: -20px;
+    font-weight: 400;
 }
 .call{
     color: #E54A35;
     font-style: italic;
+    text-decoration: underline;
 }
 .contactform{
     background-color: rgba(8,27,51,0.71);
