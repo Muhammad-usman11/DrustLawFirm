@@ -17,14 +17,14 @@ const Local = () => {
                 If your client is faced with litigation or arbitration in Ohio, contact The Durst Law Firm to discuss working together as local counsel. References available upon request.
                 </p>
                 <div className={style.commercialbtns}>
-                  <div className={style.btn1}>
+                  <button className={style.btn1}>
                     <i class="fa-solid fa-phone"></i>
                     <h3>Call Us Today</h3>
-                  </div>
-                  <div className={style.btn2}>
+                  </button>
+                  <button className={style.btn2}>
                     <i class="fa-solid fa-arrow-right"></i>
                     <h3>Send A Message </h3>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>

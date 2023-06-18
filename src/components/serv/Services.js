@@ -7,30 +7,30 @@ const Services = () => {
         <div className="wrapper">
           <h1>Services</h1>
           <div class={style.servbox}>
-            <div className={style.btnbox}>
+            <button className={style.btnbox}>
               <p>Commercial Litigation</p>
               <i class="fa-solid fa-arrow-right"></i>
-            </div>
+            </button>
 
-            <div className={style.btnbox}>
+            <button className={style.btnbox}>
               <p>Transportation Accidents</p>
               <i class="fa-solid fa-arrow-right"></i>
-            </div>
+            </button>
 
-            <div className={style.btnbox}>
+            <button className={style.btnbox}>
               <p>Personal Injury</p>
               <i class="fa-solid fa-arrow-right"></i>
-            </div>
+            </button>
 
-            <div className={style.btnbox}>
+            <button className={style.btnbox}>
               <p>Ohio Local Counsel</p>
               <i class="fa-solid fa-arrow-right"></i>
-            </div>
+            </button>
 
-            <div className={style.btnbox}>
+            <button className={style.btnbox}>
               <p>Appellate Law</p>
               <i class="fa-solid fa-arrow-right"></i>
-            </div>
+            </button>
           </div>
         </div>
       </div>

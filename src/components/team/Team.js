@@ -16,10 +16,10 @@ const Team = () => {
                 <h2>Principal Attorney</h2>
                 <p>Alex J. Durst is a civil trial attorney with more than ten years of experience handling commercial litigation matters for corporate clients as well as complex transportation, products liability and catastrophic personal injury matters for individuals.</p>
                 <div className={style.btnparent}>
-                <div className={style.btnbox}>
+                <button className={style.btnbox}>
                     <p>Meet Alex</p>
                     <i class="fa-solid fa-arrow-right"></i>
-                </div>
+                </button>
                 </div>
             </div>
         </div>
@@ -34,10 +34,10 @@ const Team = () => {
                 <h2>Associate Attorney</h2>
                 <p>Logan F. Kline joined The Durst Law Firm as an associate attorney in 2022, upon graduation from the University of Cincinnati College of Law. Logan graduated at the top of his class and received CALI awards in Negotiation and Client Counseling.</p>
                 <div className={style.btnparent}>
-                <div className={style.btnbox}>
+                <button className={style.btnbox}>
                     <p>Meet Logan</p>
                     <i class="fa-solid fa-arrow-right"></i>
-                </div>
+                </button>
                 </div>
             </div>
         </div>

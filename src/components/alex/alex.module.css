@@ -75,11 +75,21 @@ left: -25px;
 .esq{
     font-size: 24px;
 }
+.secimg{
+    display: none;
+}
 
 
 @media (max-width: 768px) {
     .alexbox h1 {
       font-size: 36px;
+    }
+    .secimg{
+        display: block;
+        max-width: 262px;
+margin: auto;
+ 
+margin-top: 30px;
     }
     .alexbox h2{
         font-size: 20px;
@@ -87,6 +97,9 @@ left: -25px;
     .btnparent{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .aleximgparent{
+        display: none;
     }
     .btnbox {
      

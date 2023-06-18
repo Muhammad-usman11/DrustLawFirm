@@ -132,6 +132,9 @@ max-width: 175px;
   .litigation p{
     font-size: 17px;
   }
+  .loaclimg{
+    display: none;
+  }
 }
 
 

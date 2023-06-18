@@ -56,12 +56,12 @@ const TwoCard = () => {
             <div class="pure-u-1 pure-u-md-6-24">
               <div className={style.btnb}>
                 <div className={style.twobtns}>
-                  <div className={style.btn1}>
+                  <button className={style.btn1}>
                     <p>More Testimonials</p>
-                  </div>
-                  <div className={style.btn2}>
+                  </button>
+                  <button className={style.btn2}>
                     <p>More Results</p>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>

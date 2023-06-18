@@ -13,14 +13,14 @@ const Commercial = () => {
             <p>We litigate complex commercial disputes in state courts, federal courts, and arbitral fora in Ohio.</p>
             <p>Our attorneys routinely represent corporate clients in high-dollar-value breach of contract actions, closely-held business disputes and business torts.</p>
             <div className={style.commercialbtns}>
-                <div className={style.btn1} >
+                <button className={style.btn1} >
                     <i class="fa-solid fa-phone"></i>
                     <h3>Call Us</h3>
-                </div>
-                <div className={style.btn2} >
+                </button>
+                <button className={style.btn2} >
                     <i class="fa-solid fa-arrow-right"></i>
                     <h3>Send A Message </h3>
-                </div>
+                </button>
             </div>
         </div>
     </div>

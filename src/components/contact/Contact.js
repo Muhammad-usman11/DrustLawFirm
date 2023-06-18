@@ -40,9 +40,9 @@ Cincinnati, OH 45202</h4>
                 <textarea placeholder='Breifly describe your case...' name=""  cols="30" rows="10"></textarea>
                 <input className={style.chek} type="checkbox" name="" id="" />
                 <p>Please check this box to note your understanding that we cannot and do not represent you until our client intake process is completed and that you should not send us confidential information until such time as an attorney-client relationship has been established.</p>
-                <div className={style.btn}>
+                <button className={style.btn}>
                     Submit
-                </div>
+                </button>
             </div>
         </div>
     </div>

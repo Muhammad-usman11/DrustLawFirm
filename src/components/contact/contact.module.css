@@ -163,6 +163,9 @@ margin-top: 60px;
     .vine{
         font-weight: 500;
     }
+    .contactgrid{
+        background-image: none !important;
+    }
 }
   
 
