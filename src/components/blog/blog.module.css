@@ -82,6 +82,9 @@ text-align: center;
 .blogbody{
     max-width: 381px;
 }
+.version:hover{
+    background-color: #e2e2e2;
+}
 
 
 

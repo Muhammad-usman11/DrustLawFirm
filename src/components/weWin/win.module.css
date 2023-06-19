@@ -13,6 +13,11 @@
     display: flex;    
     align-items: center;
 }
+.btn2:hover{
+    color: white !important;
+    background-color: #081b33;
+}
+
 .wintext{
     max-width: 604px;
 margin: auto;

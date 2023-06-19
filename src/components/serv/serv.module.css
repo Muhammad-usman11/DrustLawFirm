@@ -38,6 +38,12 @@ margin-left: 8px;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 }
+.btnbox:hover{
+  color: #E54A35 !important;
+  background-color: #081B33;
+  
+}
+
 
 @media (max-width: 768px) {
   .servbox{
