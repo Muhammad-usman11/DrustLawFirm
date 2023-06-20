@@ -164,6 +164,10 @@ margin-top: -50px;
     .contacttext{
         text-align: center;
     }
+    .locicon{
+        margin-left: 40px;
+        margin-top: -30px;
+    }
     .vine{
         font-weight: 500;
     }
