@@ -3,7 +3,7 @@
 .btn2{
     color: #081B33 !important;
     border:1px solid #081B33 ;
-    
+    border-radius: 6px;
     font-weight: 600 !important;
     background-color: #FFFFFF;
     margin-top: 35px;
@@ -19,7 +19,7 @@
 }
 
 .wintext{
-    max-width: 604px;
+    max-width: 687px;
 margin: auto;
 }
 .btn2 h3{
@@ -33,7 +33,8 @@ font-style: normal;
 color: #081b33;
 }
 .wintext h2{
-    font-size: 25px;
+    margin-top: -10px;
+    font-size: 26px;
     color: #E54A35 !important;
     font-family: calluna,serif;
 font-weight: 600;

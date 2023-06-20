@@ -7,12 +7,13 @@
 font-weight: 600;
 font-style: normal;
 color: #081b33;
-max-width: 496px;
-font-size: 43px;
+max-width: 589px;
+font-size: 50px;
 padding-bottom: 10px;
 }
 .reprelist{
     max-width: 656px;
+    margin-top: -15px;
 }
 .reprelist ul li{
     color: #081B33 !important;
@@ -29,7 +30,7 @@ padding-bottom: 10px;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-    font-size: 30px;
+    font-size: 22px;
 }
 .repreimg{
     max-width: 550px;
@@ -52,7 +53,8 @@ margin-top: 70px;
     font-weight: 500;
     color: #081b33;
     font-size: 19px;
-    margin-top: 40px;
+    margin-top: 30px;
+    line-height: 1.4em;
 }
 .courtlist{
     max-width: 325px;
@@ -63,7 +65,7 @@ margin-top: 70px;
 .courtlist ul li{
     color: #081B33 !important;
     
-    line-height: 1.5em;
+    line-height: 1.2em;
     padding-bottom: 15px;
     list-style: none;
     font-size: 15px;

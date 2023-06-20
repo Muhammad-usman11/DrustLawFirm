@@ -3,7 +3,7 @@
     font-weight: 600;
     font-style: normal;
     color: #081b33;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
 }
 .lawyersec{
@@ -26,13 +26,13 @@
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-    font-size: 30px;    
+    font-size: 22px;    
 }
 .lawyerlist{
     margin-top: 40px;
 }
 .redarrow{
-    max-width: 180px;
+    max-width: 240px;
 }
 .appeal{
     font-weight: 600;

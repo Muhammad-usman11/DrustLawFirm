@@ -7,8 +7,11 @@
     font-size: 26px;  
     text-align: center;
 }
+.clientsec{
+    padding: 50px 0px;
+}
 .line{
-    border: 7px solid #e54a35;
+    border: 6px solid #e54a35;
     max-width: 211px;
     margin: auto; 
     margin-top: 40px; 
@@ -29,7 +32,7 @@
     display: inline-block;
     width: 1em;
     margin-left: -1em; 
-    font-size: 30px;     
+    font-size: 22px;     
 }
 .clientrepresent{
     margin-top: 70px;

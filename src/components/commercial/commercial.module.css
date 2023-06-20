@@ -38,7 +38,7 @@
   font-size: 15px;
   font-weight: 600 !important;
   background-color: #FFFFFF;
-  margin-left: 25px;
+  margin-left: 15px;
   height: 50px;
   
   padding: 0px 26px;
@@ -60,7 +60,7 @@
     margin-top: 40px;
   }
   .litigation{
-    max-width: 600px;
+    max-width: 671px;
   }
   .additional h2{
     color: #081b33;
@@ -91,7 +91,7 @@
     display: inline-block;
     width: 1em;
     margin-left: -1em; 
-    font-size: 30px; 
+    font-size: 22px; 
   }
   .commercialsec{
     padding: 40px 0px;

@@ -4,7 +4,7 @@ const Clients = () => {
   return (
     <>
     
-    <div className="cliensec">
+    <div className={style.clientsec}>
         <div className="wrapper">
             <div className={style.clienttext}>
                 <h1>Clients We Represent:</h1>
