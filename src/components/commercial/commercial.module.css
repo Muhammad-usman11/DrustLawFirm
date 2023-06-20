@@ -18,16 +18,17 @@
   .litigation p{
     color: #081b33;
     font-size: 20px;
+    line-height: 1.4em;
     
   }
   .btn1{
     color: #E54A35 !important;
     border:1px solid #E54A35 ;
-    
+    border-radius: 6px;
     font-weight: 600 !important;
     background-color: #FFFFFF;
-    height: 50px;
-    font-size: 15px;
+    height: 60px;
+font-size: 18px;
   padding: 0px 26px;
   display: flex;
     align-items: center;
@@ -35,11 +36,12 @@
   .btn2{
     color: #081B33 !important;
   border:1px solid #081B33 ;
-  font-size: 15px;
+  border-radius: 6px;
   font-weight: 600 !important;
   background-color: #FFFFFF;
   margin-left: 15px;
-  height: 50px;
+  height: 60px;
+font-size: 18px;
   
   padding: 0px 26px;
   display: flex;
@@ -58,6 +60,7 @@
     display: flex;
     align-items: center;
     margin-top: 40px;
+    gap: 0px;
   }
   .litigation{
     max-width: 671px;
@@ -77,7 +80,7 @@
     background-color: rgba(255,255,255,0.74);
   }
   .areaboxtext ul li{
-    color: #081B33 !important;
+    color: #081B33 ;
     font-weight: 600;
     line-height: 1.4em;
     padding-bottom: 15px;
@@ -104,6 +107,11 @@
 .btn2 h3{
     margin-left: 10px;
 }
+.app{
+  color: #E54A35 !important;
+  text-decoration: underline;
+  font-style: italic;
+}
 
 
 
@@ -118,6 +126,7 @@
  .commercialbtns{
   flex-wrap: wrap;
   justify-content: center;
+  gap: 15px;
  }
  .litigation{
   text-align: center;
@@ -127,7 +136,7 @@
   text-align: left;
  }
  .btn2{
-  margin-top: 10px;
+  
   border: 2px solid #081B33;
  }
  .btn1{

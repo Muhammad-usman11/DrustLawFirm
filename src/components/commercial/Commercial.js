@@ -36,10 +36,10 @@ const Commercial = () => {
                         <li>Noncompete Litigation</li>
                         <li>Trade Secret Litigation</li>
                         <li>Uniform Commercial Code (UCC) Litigation</li>
-                        <li>Employment Defense Litigation</li>
+                        <li className={style.app} >Employment Defense Litigation</li>
                         <li>Real Estate Litigation</li>
                         <li>Corporate Governance Litigation</li>
-                        <li>Appeals</li>
+                        <li className={style.app} >Appeals</li>
                     </ul>
                 </div>
             </div>

@@ -18,11 +18,11 @@ const Resources = () => {
                 </div>
                 <div className={style.fedbox3}>
                 <i class="fa-regular fa-file-pdf"></i>
-                <h3>Southern District of Ohio Local Rules</h3>
+                <h3>Northern District of Ohio Local Rules</h3>
                 </div>
                 <div className={style.fedbox3}>
                 <i class="fa-regular fa-file-pdf"></i>
-                <h3>Southern District of Ohio Local Rules</h3>
+                <h3>Sixth Circuit Court of Appeals Local Rules </h3>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@ const Resources = () => {
             <div className={style.fddbox2}>
                 <div className={style.fedbox3}>
                 <i class="fa-regular fa-file-pdf"></i>
-                <h3>Southern District of Ohio Local Rules</h3>
+                <h3>Ohio Rules of Civil Procedure</h3>
                 </div>
                 
             </div>

@@ -83,6 +83,8 @@ margin-left: -60px;
 .twobtns{
     position: absolute;
     top: 150px;
+    display: flex;
+flex-direction: column;
 
 }
 
