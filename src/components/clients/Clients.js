@@ -23,7 +23,7 @@ const Clients = () => {
     </div>
     <div class="pure-u-1 pure-u-md-8-24">
     <div className={style.clientrepresent}>
-            <ul>
+            <ul className={style.space} >
                 <li>Pharmaceutical companies</li>
                 <li>Oil & Gas companies</li>
                 <li>Construction companies</li>
@@ -34,7 +34,7 @@ const Clients = () => {
     </div>
     <div class="pure-u-1 pure-u-md-8-24">
     <div className={style.clientrepresent}>
-            <ul>
+            <ul className={style.space} >
                 <li>Real estate companies</li>
                 <li>Public and private corporations</li>
                 <li>Executives, Investors and High Net-Worth Businesspeople</li>

@@ -25,7 +25,7 @@ const LawyerAre = () => {
             </div>
             <div class="pure-u-1 pure-u-md-1-3">
               <div className={style.lawyerlist}>
-                <ul>
+                <ul className={style.space} >
                   <li>
                   <strong>Familiar with local Judges</strong> and their unique chambers practices.
                   </li>
@@ -43,7 +43,7 @@ const LawyerAre = () => {
             </div>
             <div class="pure-u-1 pure-u-md-1-3">
               <div className={style.lawyerlist}>
-                <ul>
+                <ul className={style.space} >
                   <li>
                   <strong>Exceptionally qualified to handle <span className={style.appeal} >appeals</span> ,</strong>  particularly in Ohio’s First District Court of Appeals.
                   </li>

@@ -29,7 +29,7 @@ const OurLawyer = () => {
             </div>
             <div class="pure-u-1 pure-u-md-1-3">
               <div className={style.lawyerlist}>
-                <ul>
+                <ul className={style.space} >
                   <li>
                     Numerous <strong>E-Commerce companies</strong> suing payment
                     facilitators (PayFacs), independent sales organizations
@@ -50,7 +50,7 @@ const OurLawyer = () => {
             </div>
             <div class="pure-u-1 pure-u-md-1-3">
               <div className={style.lawyerlist}>
-                <ul>
+                <ul className={style.space} >
                   <li>
                     A <strong>European business</strong> enterprise incorporated
                     in the United States and company officer who were sued for

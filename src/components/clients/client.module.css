@@ -45,17 +45,23 @@
         max-width: 75px;
         margin-top: 0px;
     }
+    .clientsec{
+        padding: 0px;
+    }
     .clientrepresent ul li{
-        font-size: 17px;
+        font-size: 16px;
 text-align: left;
 padding-bottom: 10px;
-font-weight: 500;
+font-weight: 600;
     }
     .clientrepresent ul li::before{
         font-size: 20px;
     }
     .clientrepresent{
-        margin-top: 17px;
+        margin-top: 50px;
+    }
+    .space{
+        margin-top: -62px;
     }
 }
   
