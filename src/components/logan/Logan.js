@@ -10,7 +10,7 @@ const Logan = () => {
               <div className={style.alexbox}>
                 <h2>Associate Attorney</h2>
                 <h1>
-                  Logan F. Kline <span className={style.esq}>, ESQ</span>{" "}
+                  Logan F. Kline, <span className={style.esq}> ESQ</span>{" "}
                 </h1>
                 <img className={style.secimg} src="/images/logan.jpg" alt="" />
                 <div className={style.btnparent}>

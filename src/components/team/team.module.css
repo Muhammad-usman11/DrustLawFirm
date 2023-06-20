@@ -25,20 +25,21 @@ color: #081b33;
     font-family: calluna,serif;
     font-weight: 700;
 font-style: italic;
-font-size: 25px;
+font-size: 20px;
 color: #E54A35 !important;
 }
 .teamtext p{
     color: #081b33;
     font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
     line-height: 1.4em;
-    font-size: 21px;
-    max-width: 677px;
+    font-size: 20px;
+    max-width: 654px;
+    margin: auto;
 }
 .btnbox{
     display: flex;
     align-items: center;
-    
+    border-radius: 5px;
     border: 1px solid #081B33;
     margin-top: 15px;
 font-weight: 600 !important;
@@ -67,6 +68,9 @@ justify-content: center;
     background-color: #E54A35 ;
     border: none;
 }
+.space{
+    margin-top: 20px !important;
+}
 
 
 @media (max-width: 768px) {
@@ -84,7 +88,7 @@ justify-content: center;
    }
    .teamtext p{
     font-size: 18px;
-    padding: 0px 20px;
+    padding: 0px 10px;
    }
    .loimg{
     margin-top: 35px;
@@ -93,6 +97,9 @@ justify-content: center;
     max-width: 250px;
    }
    .teambox{
+    margin-top: 30px;
+   }
+   .btnbox{
     margin-top: 30px;
    }
 }

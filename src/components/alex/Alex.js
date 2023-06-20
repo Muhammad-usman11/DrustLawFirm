@@ -10,17 +10,17 @@ const Alex = () => {
               <div className={style.alexbox}>
                 <h2>Principal Attorney</h2>
                 <h1>
-                  Alexander J. Durst <span className={style.esq}>, ESQ</span>{" "}
+                  Alexander J. Durst, <span className={style.esq}>ESQ</span>{" "}
                 </h1>
                 <img className={style.secimg} src="/images/alex.jpg" alt="" />
                 <div className={style.btnparent}>
                   <button className={style.btnbox}>
                     <i class="fa-sharp fa-regular fa-phone"></i>
-                    <p>Meet Alex</p>
+                    <p>Call Alex</p>
                   </button>
                   <button className={style.btnbox}>
                     <i class="fa-sharp fa-solid fa-paper-plane"></i>
-                    <p>Meet Alex</p>
+                    <p>Email Alex</p>
                   </button>
                 </div>
                 <p className={style.alexp}>
