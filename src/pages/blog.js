@@ -9,7 +9,7 @@ const blog = () => {
    
    <Blog/>
    <Divider/>
-   <Brands/>
+   
    
    
    </>

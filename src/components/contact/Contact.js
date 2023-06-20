@@ -18,7 +18,7 @@ const Contact = () => {
                     <h4>office@durstlawfirm.com</h4>
                 </div>
                 <div className={style.info}>
-                <i class="fa-regular fa-location-dot"></i>
+                    <img className={style.locicon} src="/images/location.png" alt="" />
                     <div className="extra">
                     <h4>Our Location</h4>
                     <h4 className={style.vine} >600 Vine St., Suite 1920

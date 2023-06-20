@@ -10,11 +10,22 @@ const Blog = () => {
                 <h1>Ohio Law & Litigation Blog</h1>
                 <h2>Observations & Commentary on Interesting Areas of the Law</h2>
                 <div className={style.btnparent}>
+                    <div className={style.box4}>
+                    <div className={style.box1}>
                     <button className={style.version}>All</button>
                     <button className={style.version}>Uncategorized</button>
+                    </div>
+                    <div className={style.box2}>
                     <button className={style.version}>Carporate Litigation</button>
                     <button className={style.version}>Appellate Law</button>
+                    </div>
+                    <div className={style.box6}>
                     <button className={style.version}>Civil Litigation</button>
+                    </div>
+                    </div>
+                    
+                   
+                    
                 </div>
             </div>
 
