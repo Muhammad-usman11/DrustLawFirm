@@ -18,7 +18,7 @@ const Commercial = () => {
                     <h3>Call Us</h3>
                 </button>
                 <button className={style.btn2} >
-                    <i class="fa-solid fa-arrow-right"></i>
+                   <img className={style.arrow} src="/images/arrow.png" alt="" />
                     <h3>Send A Message </h3>
                 </button>
             </div>
