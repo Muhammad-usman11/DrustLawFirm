@@ -1,6 +1,8 @@
 
 
 .btn2{
+    width: 100%;
+max-width: 230px;
     color: #081B33 !important;
     border:1px solid #081B33 ;
     border-radius: 6px;
@@ -9,7 +11,7 @@
     margin-top: 35px;
     padding: 0px 30px;
     height: 55px;
-    max-width: 230px;
+   
     display: flex;    
     align-items: center;
 }
@@ -22,9 +24,7 @@
     max-width: 687px;
 margin: auto;
 }
-.btn2 h3{
-    margin-left: 10px;
-}
+
 .wintext h1{
     font-size: 37px;
     font-family: calluna,serif;
@@ -51,6 +51,12 @@ font-style: normal;
 .winimg{
     max-width: 539px;
 margin: auto;
+}
+.btn2 svg{
+    max-width: 30px;
+}
+.btn2:hover svg{
+    fill: white;
 }
 
 

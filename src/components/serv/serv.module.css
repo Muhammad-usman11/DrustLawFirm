@@ -38,10 +38,13 @@ margin-left: 8px;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 }
-.btnbox:hover{
+.btnbox:hover p{
   color: #E54A35 !important;
   background-color: #081B33;
   
+}
+.btnbox:hover{
+  background: #081b33;
 }
 
 

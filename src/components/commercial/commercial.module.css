@@ -42,7 +42,8 @@ font-size: 18px;
   margin-left: 15px;
   height: 60px;
 font-size: 18px;
-  
+width: 100%;
+max-width: 250px;
   padding: 0px 26px;
   display: flex;
     align-items: center;
@@ -105,17 +106,23 @@ font-size: 18px;
     margin-left: 10px;
 }
 .btn2 h3{
-    margin-left: 10px;
+    margin-left: 5px;
 }
+
+
 .app{
   color: #E54A35 !important;
   text-decoration: underline;
   font-style: italic;
 }
 
-.arrow{
+.btn2 svg{
   max-width: 30px;
 }
+.btn2:hover svg{
+  fill: white;
+}
+
 
 
 

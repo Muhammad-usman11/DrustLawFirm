@@ -38,6 +38,8 @@ color: #E54A35 !important;
 }
 .btnbox{
     display: flex;
+    width: 100%;
+max-width: 185px;
     align-items: center;
     border-radius: 5px;
     border: 1px solid #081B33;
@@ -70,6 +72,10 @@ justify-content: center;
 }
 .space{
     margin-top: 20px !important;
+}
+.btnbox svg{
+    fill: white;
+    max-width: 30px;
 }
 
 
