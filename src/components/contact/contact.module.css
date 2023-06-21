@@ -158,14 +158,15 @@ margin-top: -50px;
         text-align: left;
     }
     .info{
-        justify-content: center;
+       max-width: 270px;
+       margin: auto;
         margin-top: -15px;
     }
     .contacttext{
         text-align: center;
     }
     .locicon{
-        margin-left: 40px;
+        
         margin-top: -30px;
     }
     .vine{
